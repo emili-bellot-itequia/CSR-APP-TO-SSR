@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-about-us',
   standalone: true,
   imports: [RouterModule],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  templateUrl: './about-us.component.html',
+  styleUrl: './about-us.component.scss'
 })
-export class AppComponent {
-  title = 'csr-app';
+export class AboutUsComponent {
+
 }
